@@ -1,0 +1,33 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/vendor/
+node_modules/
+
+# Uploads and Generated Files
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Temporary files
+/tmp/*
+!/tmp/.gitkeep
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Database
+*.sqlite
+*.db
